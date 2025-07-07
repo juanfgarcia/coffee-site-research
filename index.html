@@ -1,0 +1,1712 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_032a6825534b4e5c730df069e101f2b5 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+    <script src="https://cdn.jsdelivr.net/gh/python-visualization/folium@main/folium/templates/leaflet_heat.min.js"></script>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_032a6825534b4e5c730df069e101f2b5" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_032a6825534b4e5c730df069e101f2b5 = L.map(
+                "map_032a6825534b4e5c730df069e101f2b5",
+                {
+                    center: [39.4613335, -0.356236],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 15,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_3683967d4a6ae40979d70edef2883b10 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_3683967d4a6ae40979d70edef2883b10.addTo(map_032a6825534b4e5c730df069e101f2b5);
+        
+    
+            var marker_64b74132eec3e01bd27e928d7b62f6cf = L.marker(
+                [39.461778, -0.367194],
+                {
+}
+            ).addTo(map_032a6825534b4e5c730df069e101f2b5);
+        
+    
+            var icon_a3f15e83a2a7100e9c5bd136a2734622 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_4ef01d82c7bdf9f4feb90a4d01fce447 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_db05ca24db1dc2088a041ce960beea5f = $(`<div id="html_db05ca24db1dc2088a041ce960beea5f" style="width: 100.0%; height: 100.0%;">Spot 1</div>`)[0];
+                popup_4ef01d82c7bdf9f4feb90a4d01fce447.setContent(html_db05ca24db1dc2088a041ce960beea5f);
+            
+        
+
+        marker_64b74132eec3e01bd27e928d7b62f6cf.bindPopup(popup_4ef01d82c7bdf9f4feb90a4d01fce447)
+        ;
+
+        
+    
+    
+                marker_64b74132eec3e01bd27e928d7b62f6cf.setIcon(icon_a3f15e83a2a7100e9c5bd136a2734622);
+            
+    
+            var marker_29d85a8ba6ed8c221f1f738dd578e54c = L.marker(
+                [39.460889, -0.345278],
+                {
+}
+            ).addTo(map_032a6825534b4e5c730df069e101f2b5);
+        
+    
+            var icon_da69c540a571430bc0e2003ede4c09c4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_39a5420bfa8172a98e471d7627888841 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_71b6ff5d41f1fa8f84fdd448fff27d35 = $(`<div id="html_71b6ff5d41f1fa8f84fdd448fff27d35" style="width: 100.0%; height: 100.0%;">Spot 2</div>`)[0];
+                popup_39a5420bfa8172a98e471d7627888841.setContent(html_71b6ff5d41f1fa8f84fdd448fff27d35);
+            
+        
+
+        marker_29d85a8ba6ed8c221f1f738dd578e54c.bindPopup(popup_39a5420bfa8172a98e471d7627888841)
+        ;
+
+        
+    
+    
+                marker_29d85a8ba6ed8c221f1f738dd578e54c.setIcon(icon_da69c540a571430bc0e2003ede4c09c4);
+            
+    
+            var marker_4de0a39dc1cd3d8a8bdf988c6dafa3e7 = L.marker(
+                [39.461363899999995, -0.3721615],
+                {
+}
+            ).addTo(map_032a6825534b4e5c730df069e101f2b5);
+        
+    
+            var icon_04d963530ff51c049c22d3521c797bcb = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "lightgray",
+  "iconColor": "white",
+  "icon": "coffee",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_20605609ef991e5135d2eb0e88da079c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e295890dd1b2671ae05604e7ebc3e053 = $(`<div id="html_e295890dd1b2671ae05604e7ebc3e053" style="width: 100.0%; height: 100.0%;">Blackbird - 4.4⭐ (1604 reviews)</div>`)[0];
+                popup_20605609ef991e5135d2eb0e88da079c.setContent(html_e295890dd1b2671ae05604e7ebc3e053);
+            
+        
+
+        marker_4de0a39dc1cd3d8a8bdf988c6dafa3e7.bindPopup(popup_20605609ef991e5135d2eb0e88da079c)
+        ;
+
+        
+    
+    
+                marker_4de0a39dc1cd3d8a8bdf988c6dafa3e7.setIcon(icon_04d963530ff51c049c22d3521c797bcb);
+            
+    
+            var marker_f8d0a2e4d8caee86c0987040df42e16b = L.marker(
+                [39.461937299999995, -0.3697783],
+                {
+}
+            ).addTo(map_032a6825534b4e5c730df069e101f2b5);
+        
+    
+            var icon_ee269c9a020d127bafde5ed83dd11c82 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "lightgray",
+  "iconColor": "white",
+  "icon": "coffee",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2508256a120914ec45aa6f9b1bcaf650 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_21695094f30ece65deb210b4762d6de5 = $(`<div id="html_21695094f30ece65deb210b4762d6de5" style="width: 100.0%; height: 100.0%;">Casa Raíz café de especialidad - 4.2⭐ (341 reviews)</div>`)[0];
+                popup_2508256a120914ec45aa6f9b1bcaf650.setContent(html_21695094f30ece65deb210b4762d6de5);
+            
+        
+
+        marker_f8d0a2e4d8caee86c0987040df42e16b.bindPopup(popup_2508256a120914ec45aa6f9b1bcaf650)
+        ;
+
+        
+    
+    
+                marker_f8d0a2e4d8caee86c0987040df42e16b.setIcon(icon_ee269c9a020d127bafde5ed83dd11c82);
+            
+    
+            var marker_a113027a547fa484450e12c1531c5253 = L.marker(
+                [39.4605422, -0.3725178],
+                {
+}
+            ).addTo(map_032a6825534b4e5c730df069e101f2b5);
+        
+    
+            var icon_b1ea88c27d2e17d9b6bdb3582dad1c90 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "lightgray",
+  "iconColor": "white",
+  "icon": "coffee",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_1f88fd5163e60a79822ba515f53ab834 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_01bd1ecc98fffa4f55d6707298df9514 = $(`<div id="html_01bd1ecc98fffa4f55d6707298df9514" style="width: 100.0%; height: 100.0%;">La Más Bonita Ruzafa - 4.2⭐ (1786 reviews)</div>`)[0];
+                popup_1f88fd5163e60a79822ba515f53ab834.setContent(html_01bd1ecc98fffa4f55d6707298df9514);
+            
+        
+
+        marker_a113027a547fa484450e12c1531c5253.bindPopup(popup_1f88fd5163e60a79822ba515f53ab834)
+        ;
+
+        
+    
+    
+                marker_a113027a547fa484450e12c1531c5253.setIcon(icon_b1ea88c27d2e17d9b6bdb3582dad1c90);
+            
+    
+            var marker_02d483cbfdda0106ee02f14e54fe18d1 = L.marker(
+                [39.4660535, -0.36843929999999997],
+                {
+}
+            ).addTo(map_032a6825534b4e5c730df069e101f2b5);
+        
+    
+            var icon_e72233ade6f3a76f9dd7b435d6cd4363 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "lightgray",
+  "iconColor": "white",
+  "icon": "coffee",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ad04e0c8d6f68fd9152929f88efcb7d6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_42dc82e0ad248d9110388c22f58bcc2c = $(`<div id="html_42dc82e0ad248d9110388c22f58bcc2c" style="width: 100.0%; height: 100.0%;">CAFÉ BALLI - 3.9⭐ (2426 reviews)</div>`)[0];
+                popup_ad04e0c8d6f68fd9152929f88efcb7d6.setContent(html_42dc82e0ad248d9110388c22f58bcc2c);
+            
+        
+
+        marker_02d483cbfdda0106ee02f14e54fe18d1.bindPopup(popup_ad04e0c8d6f68fd9152929f88efcb7d6)
+        ;
+
+        
+    
+    
+                marker_02d483cbfdda0106ee02f14e54fe18d1.setIcon(icon_e72233ade6f3a76f9dd7b435d6cd4363);
+            
+    
+            var marker_01af76682559e5562cec516977cb440b = L.marker(
+                [39.464810899999996, -0.3672464],
+                {
+}
+            ).addTo(map_032a6825534b4e5c730df069e101f2b5);
+        
+    
+            var icon_70c3e04b06ca42cdf319c21dfd9d655d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "lightgray",
+  "iconColor": "white",
+  "icon": "coffee",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_107cd353520e8c6294a07d4613d820b4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6ea02bc33079e47700a08490001abce9 = $(`<div id="html_6ea02bc33079e47700a08490001abce9" style="width: 100.0%; height: 100.0%;">COPPER (Specialty coffee & brunch) - 4.8⭐ (391 reviews)</div>`)[0];
+                popup_107cd353520e8c6294a07d4613d820b4.setContent(html_6ea02bc33079e47700a08490001abce9);
+            
+        
+
+        marker_01af76682559e5562cec516977cb440b.bindPopup(popup_107cd353520e8c6294a07d4613d820b4)
+        ;
+
+        
+    
+    
+                marker_01af76682559e5562cec516977cb440b.setIcon(icon_70c3e04b06ca42cdf319c21dfd9d655d);
+            
+    
+            var marker_e124bd52f6fdd1c61617bed8b9abdd22 = L.marker(
+                [39.4640145, -0.366011],
+                {
+}
+            ).addTo(map_032a6825534b4e5c730df069e101f2b5);
+        
+    
+            var icon_f8929516338edfb7cc17e1b00a20f33a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "lightgray",
+  "iconColor": "white",
+  "icon": "coffee",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a060a2500a513f737d19bf85d7b8c71f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_dec167a61a8980eafc64804c954aa558 = $(`<div id="html_dec167a61a8980eafc64804c954aa558" style="width: 100.0%; height: 100.0%;">Kaffeina - 4.5⭐ (571 reviews)</div>`)[0];
+                popup_a060a2500a513f737d19bf85d7b8c71f.setContent(html_dec167a61a8980eafc64804c954aa558);
+            
+        
+
+        marker_e124bd52f6fdd1c61617bed8b9abdd22.bindPopup(popup_a060a2500a513f737d19bf85d7b8c71f)
+        ;
+
+        
+    
+    
+                marker_e124bd52f6fdd1c61617bed8b9abdd22.setIcon(icon_f8929516338edfb7cc17e1b00a20f33a);
+            
+    
+            var marker_cfb29c9f5ea73800fcb4e6ddb76cffa1 = L.marker(
+                [39.4624108, -0.37215539999999997],
+                {
+}
+            ).addTo(map_032a6825534b4e5c730df069e101f2b5);
+        
+    
+            var icon_7e11b5bb689ae491833a065c9ecb8bbf = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "lightgray",
+  "iconColor": "white",
+  "icon": "coffee",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_57665a453cce8ebc78fb888a0972e8f8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a4902da700a333877e9cc366a35902d6 = $(`<div id="html_a4902da700a333877e9cc366a35902d6" style="width: 100.0%; height: 100.0%;">Fiveo Coffee - 4.4⭐ (104 reviews)</div>`)[0];
+                popup_57665a453cce8ebc78fb888a0972e8f8.setContent(html_a4902da700a333877e9cc366a35902d6);
+            
+        
+
+        marker_cfb29c9f5ea73800fcb4e6ddb76cffa1.bindPopup(popup_57665a453cce8ebc78fb888a0972e8f8)
+        ;
+
+        
+    
+    
+                marker_cfb29c9f5ea73800fcb4e6ddb76cffa1.setIcon(icon_7e11b5bb689ae491833a065c9ecb8bbf);
+            
+    
+            var marker_8a5a21434d24fe3b147e7c2ff1406bba = L.marker(
+                [39.462622499999995, -0.36860129999999997],
+                {
+}
+            ).addTo(map_032a6825534b4e5c730df069e101f2b5);
+        
+    
+            var icon_1a2f133e220e9a5e9b9aefe2369b1e40 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "lightgray",
+  "iconColor": "white",
+  "icon": "coffee",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b312553680ea87aabdcfc4288bf73d91 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c44344049ab5f90cdbc2c712d410511d = $(`<div id="html_c44344049ab5f90cdbc2c712d410511d" style="width: 100.0%; height: 100.0%;">Jardín Urbano - 4.1⭐ (1680 reviews)</div>`)[0];
+                popup_b312553680ea87aabdcfc4288bf73d91.setContent(html_c44344049ab5f90cdbc2c712d410511d);
+            
+        
+
+        marker_8a5a21434d24fe3b147e7c2ff1406bba.bindPopup(popup_b312553680ea87aabdcfc4288bf73d91)
+        ;
+
+        
+    
+    
+                marker_8a5a21434d24fe3b147e7c2ff1406bba.setIcon(icon_1a2f133e220e9a5e9b9aefe2369b1e40);
+            
+    
+            var marker_42322c60c42584cb84091bf2a1233889 = L.marker(
+                [39.4607168, -0.3707397],
+                {
+}
+            ).addTo(map_032a6825534b4e5c730df069e101f2b5);
+        
+    
+            var icon_938ac3eec4ec6d88f22fc8d510740fdb = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "lightgray",
+  "iconColor": "white",
+  "icon": "coffee",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_5a7183f95a187836f525f6cd4af9b739 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bf299df1f0892dd72c9bd12fa5fd6909 = $(`<div id="html_bf299df1f0892dd72c9bd12fa5fd6909" style="width: 100.0%; height: 100.0%;">Let It Bloom - 4.7⭐ (250 reviews)</div>`)[0];
+                popup_5a7183f95a187836f525f6cd4af9b739.setContent(html_bf299df1f0892dd72c9bd12fa5fd6909);
+            
+        
+
+        marker_42322c60c42584cb84091bf2a1233889.bindPopup(popup_5a7183f95a187836f525f6cd4af9b739)
+        ;
+
+        
+    
+    
+                marker_42322c60c42584cb84091bf2a1233889.setIcon(icon_938ac3eec4ec6d88f22fc8d510740fdb);
+            
+    
+            var marker_e9de69bb0a5b2c9355e5b4882beda2f3 = L.marker(
+                [39.4641653, -0.3710482],
+                {
+}
+            ).addTo(map_032a6825534b4e5c730df069e101f2b5);
+        
+    
+            var icon_b3948f43827d3fb883d8f1d0b50fcc95 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "lightgray",
+  "iconColor": "white",
+  "icon": "coffee",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e95bcd2f6185b5d7467784ab0b863b66 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e15ca558ecf232d076b1dda9a9bbff68 = $(`<div id="html_e15ca558ecf232d076b1dda9a9bbff68" style="width: 100.0%; height: 100.0%;">Glasol - 4.2⭐ (1873 reviews)</div>`)[0];
+                popup_e95bcd2f6185b5d7467784ab0b863b66.setContent(html_e15ca558ecf232d076b1dda9a9bbff68);
+            
+        
+
+        marker_e9de69bb0a5b2c9355e5b4882beda2f3.bindPopup(popup_e95bcd2f6185b5d7467784ab0b863b66)
+        ;
+
+        
+    
+    
+                marker_e9de69bb0a5b2c9355e5b4882beda2f3.setIcon(icon_b3948f43827d3fb883d8f1d0b50fcc95);
+            
+    
+            var marker_68e1d1941464efe7f967e8bec7fff939 = L.marker(
+                [39.46155650000001, -0.3622397],
+                {
+}
+            ).addTo(map_032a6825534b4e5c730df069e101f2b5);
+        
+    
+            var icon_ef88025bfde1093b9665d13d76c2d2f7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "lightgray",
+  "iconColor": "white",
+  "icon": "coffee",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_04c0ebebc3b56461f6d0ed756ccb331b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b12779d549c2b9c6c0cd5f587c31e4cf = $(`<div id="html_b12779d549c2b9c6c0cd5f587c31e4cf" style="width: 100.0%; height: 100.0%;">Orxateria Santabárbara - 4.6⭐ (354 reviews)</div>`)[0];
+                popup_04c0ebebc3b56461f6d0ed756ccb331b.setContent(html_b12779d549c2b9c6c0cd5f587c31e4cf);
+            
+        
+
+        marker_68e1d1941464efe7f967e8bec7fff939.bindPopup(popup_04c0ebebc3b56461f6d0ed756ccb331b)
+        ;
+
+        
+    
+    
+                marker_68e1d1941464efe7f967e8bec7fff939.setIcon(icon_ef88025bfde1093b9665d13d76c2d2f7);
+            
+    
+            var marker_832237cc8820f109e1fd457b352e993a = L.marker(
+                [39.464957399999996, -0.36751649999999997],
+                {
+}
+            ).addTo(map_032a6825534b4e5c730df069e101f2b5);
+        
+    
+            var icon_66275573b0746408c1d9deccb0d088b9 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "lightgray",
+  "iconColor": "white",
+  "icon": "coffee",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_1592bdc8d6e5d31cf6ed88f4388ffe72 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fad67c8b71facf4f4fd06f782a3f2b30 = $(`<div id="html_fad67c8b71facf4f4fd06f782a3f2b30" style="width: 100.0%; height: 100.0%;">East Crema Coffee Almirante Cadarso (Specialty Coffee Valencia) - 4.7⭐ (147 reviews)</div>`)[0];
+                popup_1592bdc8d6e5d31cf6ed88f4388ffe72.setContent(html_fad67c8b71facf4f4fd06f782a3f2b30);
+            
+        
+
+        marker_832237cc8820f109e1fd457b352e993a.bindPopup(popup_1592bdc8d6e5d31cf6ed88f4388ffe72)
+        ;
+
+        
+    
+    
+                marker_832237cc8820f109e1fd457b352e993a.setIcon(icon_66275573b0746408c1d9deccb0d088b9);
+            
+    
+            var marker_707ad8c6dac7c7f4dba1e36fe29ab3c7 = L.marker(
+                [39.4593244, -0.369011],
+                {
+}
+            ).addTo(map_032a6825534b4e5c730df069e101f2b5);
+        
+    
+            var icon_cabab0f75477a93b4a783b71d2c75ac8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "lightgray",
+  "iconColor": "white",
+  "icon": "coffee",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a3948c2dace23df5307fd8620573bd03 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8ed6644c2353b86eec7300f625f13128 = $(`<div id="html_8ed6644c2353b86eec7300f625f13128" style="width: 100.0%; height: 100.0%;">Cafeteria Feng - 4⭐ (385 reviews)</div>`)[0];
+                popup_a3948c2dace23df5307fd8620573bd03.setContent(html_8ed6644c2353b86eec7300f625f13128);
+            
+        
+
+        marker_707ad8c6dac7c7f4dba1e36fe29ab3c7.bindPopup(popup_a3948c2dace23df5307fd8620573bd03)
+        ;
+
+        
+    
+    
+                marker_707ad8c6dac7c7f4dba1e36fe29ab3c7.setIcon(icon_cabab0f75477a93b4a783b71d2c75ac8);
+            
+    
+            var marker_2d286263079b0c1602445ce4e304af8c = L.marker(
+                [39.462607999999996, -0.3691703],
+                {
+}
+            ).addTo(map_032a6825534b4e5c730df069e101f2b5);
+        
+    
+            var icon_ebad03f09edb80e285e9bc1e35d156f7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "lightgray",
+  "iconColor": "white",
+  "icon": "coffee",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8b0e5880e008a857c6bef32160593e35 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0f649514e355b006746199e61bb28f56 = $(`<div id="html_0f649514e355b006746199e61bb28f56" style="width: 100.0%; height: 100.0%;">El Abrazo de la China - 4.4⭐ (424 reviews)</div>`)[0];
+                popup_8b0e5880e008a857c6bef32160593e35.setContent(html_0f649514e355b006746199e61bb28f56);
+            
+        
+
+        marker_2d286263079b0c1602445ce4e304af8c.bindPopup(popup_8b0e5880e008a857c6bef32160593e35)
+        ;
+
+        
+    
+    
+                marker_2d286263079b0c1602445ce4e304af8c.setIcon(icon_ebad03f09edb80e285e9bc1e35d156f7);
+            
+    
+            var marker_532c8ec907490465dbb3c51c66d1e885 = L.marker(
+                [39.4633537, -0.369484],
+                {
+}
+            ).addTo(map_032a6825534b4e5c730df069e101f2b5);
+        
+    
+            var icon_5d6a1bbac81c44154137a806dd66e24a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "lightgray",
+  "iconColor": "white",
+  "icon": "coffee",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_9ccbd829f2e5868c5b10d10d9159abb0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_80628776e0fde861730355f8c7a58505 = $(`<div id="html_80628776e0fde861730355f8c7a58505" style="width: 100.0%; height: 100.0%;">FloRa bake & Espresso - Specialty coffee and pastry - 5⭐ (163 reviews)</div>`)[0];
+                popup_9ccbd829f2e5868c5b10d10d9159abb0.setContent(html_80628776e0fde861730355f8c7a58505);
+            
+        
+
+        marker_532c8ec907490465dbb3c51c66d1e885.bindPopup(popup_9ccbd829f2e5868c5b10d10d9159abb0)
+        ;
+
+        
+    
+    
+                marker_532c8ec907490465dbb3c51c66d1e885.setIcon(icon_5d6a1bbac81c44154137a806dd66e24a);
+            
+    
+            var marker_f5b9647a6a97358ae150e4e487987b88 = L.marker(
+                [39.4607744, -0.3719357],
+                {
+}
+            ).addTo(map_032a6825534b4e5c730df069e101f2b5);
+        
+    
+            var icon_737a61d8a2d07a4157a58e165cdd751a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "lightgray",
+  "iconColor": "white",
+  "icon": "coffee",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_51b5f8cc53ba5f6d3df355a99f470eb3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1b377f020dedc2a73a5af787af463596 = $(`<div id="html_1b377f020dedc2a73a5af787af463596" style="width: 100.0%; height: 100.0%;">La Pizarra - 4.2⭐ (1005 reviews)</div>`)[0];
+                popup_51b5f8cc53ba5f6d3df355a99f470eb3.setContent(html_1b377f020dedc2a73a5af787af463596);
+            
+        
+
+        marker_f5b9647a6a97358ae150e4e487987b88.bindPopup(popup_51b5f8cc53ba5f6d3df355a99f470eb3)
+        ;
+
+        
+    
+    
+                marker_f5b9647a6a97358ae150e4e487987b88.setIcon(icon_737a61d8a2d07a4157a58e165cdd751a);
+            
+    
+            var marker_42359428aa687a2e197b5d2bcba2e0db = L.marker(
+                [39.4612157, -0.3715054],
+                {
+}
+            ).addTo(map_032a6825534b4e5c730df069e101f2b5);
+        
+    
+            var icon_0178355d31ac60060cb2ce1e56fd40d8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "lightgray",
+  "iconColor": "white",
+  "icon": "coffee",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b32066289b629bc87b16b4465cb1d813 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2e694c7000d7c780c3fc8b4944df03d1 = $(`<div id="html_2e694c7000d7c780c3fc8b4944df03d1" style="width: 100.0%; height: 100.0%;">Granier - 3.6⭐ (610 reviews)</div>`)[0];
+                popup_b32066289b629bc87b16b4465cb1d813.setContent(html_2e694c7000d7c780c3fc8b4944df03d1);
+            
+        
+
+        marker_42359428aa687a2e197b5d2bcba2e0db.bindPopup(popup_b32066289b629bc87b16b4465cb1d813)
+        ;
+
+        
+    
+    
+                marker_42359428aa687a2e197b5d2bcba2e0db.setIcon(icon_0178355d31ac60060cb2ce1e56fd40d8);
+            
+    
+            var marker_6c6cfa687f14e90750a97a3e11de4356 = L.marker(
+                [39.461621099999995, -0.3670264],
+                {
+}
+            ).addTo(map_032a6825534b4e5c730df069e101f2b5);
+        
+    
+            var icon_cf2922393201585cc345449420984f6d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "lightgray",
+  "iconColor": "white",
+  "icon": "coffee",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e748558ba53893a94d54d32c11c5b232 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_132b9aaff39d96c74603378076accd32 = $(`<div id="html_132b9aaff39d96c74603378076accd32" style="width: 100.0%; height: 100.0%;">Via Dolce Cannoleria - 4.6⭐ (325 reviews)</div>`)[0];
+                popup_e748558ba53893a94d54d32c11c5b232.setContent(html_132b9aaff39d96c74603378076accd32);
+            
+        
+
+        marker_6c6cfa687f14e90750a97a3e11de4356.bindPopup(popup_e748558ba53893a94d54d32c11c5b232)
+        ;
+
+        
+    
+    
+                marker_6c6cfa687f14e90750a97a3e11de4356.setIcon(icon_cf2922393201585cc345449420984f6d);
+            
+    
+            var marker_9a3fecc270bd8d23dcfc85300a23664f = L.marker(
+                [39.465536, -0.3665304],
+                {
+}
+            ).addTo(map_032a6825534b4e5c730df069e101f2b5);
+        
+    
+            var icon_436bfcd36e308ce784bd97a25c288cc3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "lightgray",
+  "iconColor": "white",
+  "icon": "coffee",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_670cc54f844e22565658088078c3d9e1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ac9d63387c8dd1e93fbd8b8b6ee26104 = $(`<div id="html_ac9d63387c8dd1e93fbd8b8b6ee26104" style="width: 100.0%; height: 100.0%;">Esperanza Cafe Literario - 4.6⭐ (132 reviews)</div>`)[0];
+                popup_670cc54f844e22565658088078c3d9e1.setContent(html_ac9d63387c8dd1e93fbd8b8b6ee26104);
+            
+        
+
+        marker_9a3fecc270bd8d23dcfc85300a23664f.bindPopup(popup_670cc54f844e22565658088078c3d9e1)
+        ;
+
+        
+    
+    
+                marker_9a3fecc270bd8d23dcfc85300a23664f.setIcon(icon_436bfcd36e308ce784bd97a25c288cc3);
+            
+    
+            var marker_bcd2491778aef97fc9d0d8342c8bc100 = L.marker(
+                [39.4636648, -0.3719732],
+                {
+}
+            ).addTo(map_032a6825534b4e5c730df069e101f2b5);
+        
+    
+            var icon_29182318774cfb1cecac32cd09141816 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "lightgray",
+  "iconColor": "white",
+  "icon": "coffee",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_72dbe2ee0c74eacceebffbb5ca648b06 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9d09b5c5e6cdc6f182a0ace66058d8ef = $(`<div id="html_9d09b5c5e6cdc6f182a0ace66058d8ef" style="width: 100.0%; height: 100.0%;">Churros - 4.6⭐ (27 reviews)</div>`)[0];
+                popup_72dbe2ee0c74eacceebffbb5ca648b06.setContent(html_9d09b5c5e6cdc6f182a0ace66058d8ef);
+            
+        
+
+        marker_bcd2491778aef97fc9d0d8342c8bc100.bindPopup(popup_72dbe2ee0c74eacceebffbb5ca648b06)
+        ;
+
+        
+    
+    
+                marker_bcd2491778aef97fc9d0d8342c8bc100.setIcon(icon_29182318774cfb1cecac32cd09141816);
+            
+    
+            var marker_ee95a1310a2f6b113483eb8b61eddd76 = L.marker(
+                [39.460062199999996, -0.3491639],
+                {
+}
+            ).addTo(map_032a6825534b4e5c730df069e101f2b5);
+        
+    
+            var icon_5686c3357790a420784eb96377bcd072 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "lightgray",
+  "iconColor": "white",
+  "icon": "coffee",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ffaa0d08c933625e0f6b156e3918f76c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1c1ccddc76a4a8996d23ac263441bfc7 = $(`<div id="html_1c1ccddc76a4a8996d23ac263441bfc7" style="width: 100.0%; height: 100.0%;">Borja Specialty Coffee - 4.6⭐ (759 reviews)</div>`)[0];
+                popup_ffaa0d08c933625e0f6b156e3918f76c.setContent(html_1c1ccddc76a4a8996d23ac263441bfc7);
+            
+        
+
+        marker_ee95a1310a2f6b113483eb8b61eddd76.bindPopup(popup_ffaa0d08c933625e0f6b156e3918f76c)
+        ;
+
+        
+    
+    
+                marker_ee95a1310a2f6b113483eb8b61eddd76.setIcon(icon_5686c3357790a420784eb96377bcd072);
+            
+    
+            var marker_9768b878632fe255c5524b88c1a90b9b = L.marker(
+                [39.4590324, -0.3478737],
+                {
+}
+            ).addTo(map_032a6825534b4e5c730df069e101f2b5);
+        
+    
+            var icon_9e6170129608a1587332145f4f3bb315 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "lightgray",
+  "iconColor": "white",
+  "icon": "coffee",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0da8b23530a5ada87985201b528e1b7a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c4fb11596defc765c8239effa1794f40 = $(`<div id="html_c4fb11596defc765c8239effa1794f40" style="width: 100.0%; height: 100.0%;">Cafetería Guapas - 4.8⭐ (1009 reviews)</div>`)[0];
+                popup_0da8b23530a5ada87985201b528e1b7a.setContent(html_c4fb11596defc765c8239effa1794f40);
+            
+        
+
+        marker_9768b878632fe255c5524b88c1a90b9b.bindPopup(popup_0da8b23530a5ada87985201b528e1b7a)
+        ;
+
+        
+    
+    
+                marker_9768b878632fe255c5524b88c1a90b9b.setIcon(icon_9e6170129608a1587332145f4f3bb315);
+            
+    
+            var marker_39930671146ed3da17747e986c23ab63 = L.marker(
+                [39.459100299999996, -0.3449228],
+                {
+}
+            ).addTo(map_032a6825534b4e5c730df069e101f2b5);
+        
+    
+            var icon_c9ab8d9caa51af77783537d1b145f13c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "lightgray",
+  "iconColor": "white",
+  "icon": "coffee",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_9178cd2bf2fb194429934cbb22416e0d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3a10387dd516b0a9e1b7c19e41ff5a22 = $(`<div id="html_3a10387dd516b0a9e1b7c19e41ff5a22" style="width: 100.0%; height: 100.0%;">Celicientos - 4.5⭐ (304 reviews)</div>`)[0];
+                popup_9178cd2bf2fb194429934cbb22416e0d.setContent(html_3a10387dd516b0a9e1b7c19e41ff5a22);
+            
+        
+
+        marker_39930671146ed3da17747e986c23ab63.bindPopup(popup_9178cd2bf2fb194429934cbb22416e0d)
+        ;
+
+        
+    
+    
+                marker_39930671146ed3da17747e986c23ab63.setIcon(icon_c9ab8d9caa51af77783537d1b145f13c);
+            
+    
+            var marker_3f10304761791e7c2d0868fa4cec1418 = L.marker(
+                [39.456813, -0.34585130000000003],
+                {
+}
+            ).addTo(map_032a6825534b4e5c730df069e101f2b5);
+        
+    
+            var icon_100cd5aa3c4181720fb3c1bc81eaab0f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "lightgray",
+  "iconColor": "white",
+  "icon": "coffee",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c2ef32439c2196a72d43bd2f75e6dc32 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_46b0d98f3c0efde17994a05010b2d555 = $(`<div id="html_46b0d98f3c0efde17994a05010b2d555" style="width: 100.0%; height: 100.0%;">Starbucks - 4⭐ (216 reviews)</div>`)[0];
+                popup_c2ef32439c2196a72d43bd2f75e6dc32.setContent(html_46b0d98f3c0efde17994a05010b2d555);
+            
+        
+
+        marker_3f10304761791e7c2d0868fa4cec1418.bindPopup(popup_c2ef32439c2196a72d43bd2f75e6dc32)
+        ;
+
+        
+    
+    
+                marker_3f10304761791e7c2d0868fa4cec1418.setIcon(icon_100cd5aa3c4181720fb3c1bc81eaab0f);
+            
+    
+            var marker_d21909507e22e3544ced174cb44c01f2 = L.marker(
+                [39.4593606, -0.34611929999999996],
+                {
+}
+            ).addTo(map_032a6825534b4e5c730df069e101f2b5);
+        
+    
+            var icon_b24b65e3e8c5c6e3b7a08ca72e644c3f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "lightgray",
+  "iconColor": "white",
+  "icon": "coffee",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_63deb9258f81a512c49e6bd81fbface5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_edd77d950b218ebc586e61e1ef9c404a = $(`<div id="html_edd77d950b218ebc586e61e1ef9c404a" style="width: 100.0%; height: 100.0%;">SOHO CAFÉ - BRUNCH - 4.3⭐ (324 reviews)</div>`)[0];
+                popup_63deb9258f81a512c49e6bd81fbface5.setContent(html_edd77d950b218ebc586e61e1ef9c404a);
+            
+        
+
+        marker_d21909507e22e3544ced174cb44c01f2.bindPopup(popup_63deb9258f81a512c49e6bd81fbface5)
+        ;
+
+        
+    
+    
+                marker_d21909507e22e3544ced174cb44c01f2.setIcon(icon_b24b65e3e8c5c6e3b7a08ca72e644c3f);
+            
+    
+            var marker_dc00a3eb8cfa26f0d6fcbd97c3420f49 = L.marker(
+                [39.4628534, -0.34286639999999996],
+                {
+}
+            ).addTo(map_032a6825534b4e5c730df069e101f2b5);
+        
+    
+            var icon_2f11092d4234d1fc2deb301b9be73a75 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "lightgray",
+  "iconColor": "white",
+  "icon": "coffee",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_6ca9f00aaac33d1ab65ff0c872ae5064 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bd8ff2ff7a91a2ec5abdbfc4a20fdeaf = $(`<div id="html_bd8ff2ff7a91a2ec5abdbfc4a20fdeaf" style="width: 100.0%; height: 100.0%;">Liaopastel - 3.9⭐ (620 reviews)</div>`)[0];
+                popup_6ca9f00aaac33d1ab65ff0c872ae5064.setContent(html_bd8ff2ff7a91a2ec5abdbfc4a20fdeaf);
+            
+        
+
+        marker_dc00a3eb8cfa26f0d6fcbd97c3420f49.bindPopup(popup_6ca9f00aaac33d1ab65ff0c872ae5064)
+        ;
+
+        
+    
+    
+                marker_dc00a3eb8cfa26f0d6fcbd97c3420f49.setIcon(icon_2f11092d4234d1fc2deb301b9be73a75);
+            
+    
+            var marker_22f712ee586f60d08e9dd93d72cb3f29 = L.marker(
+                [39.459507099999996, -0.34974649999999996],
+                {
+}
+            ).addTo(map_032a6825534b4e5c730df069e101f2b5);
+        
+    
+            var icon_5c9020632419de0e279c53d0fb7fd363 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "lightgray",
+  "iconColor": "white",
+  "icon": "coffee",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e7244c9bdbaba3047958296193763c71 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9cf3d1864ebd092408f92ea4140d9af8 = $(`<div id="html_9cf3d1864ebd092408f92ea4140d9af8" style="width: 100.0%; height: 100.0%;">Félix Coffee & Bakery - 4.9⭐ (814 reviews)</div>`)[0];
+                popup_e7244c9bdbaba3047958296193763c71.setContent(html_9cf3d1864ebd092408f92ea4140d9af8);
+            
+        
+
+        marker_22f712ee586f60d08e9dd93d72cb3f29.bindPopup(popup_e7244c9bdbaba3047958296193763c71)
+        ;
+
+        
+    
+    
+                marker_22f712ee586f60d08e9dd93d72cb3f29.setIcon(icon_5c9020632419de0e279c53d0fb7fd363);
+            
+    
+            var marker_cd5ce0edd7d6711a1c686ee60ef04993 = L.marker(
+                [39.458740299999995, -0.3459423],
+                {
+}
+            ).addTo(map_032a6825534b4e5c730df069e101f2b5);
+        
+    
+            var icon_e3037809074bd3509ee201f6181e8bfe = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "lightgray",
+  "iconColor": "white",
+  "icon": "coffee",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a026977dfc5a1970f61a71bca0eb0dcb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_39626b1b6078f07fe092c06ad23efc9d = $(`<div id="html_39626b1b6078f07fe092c06ad23efc9d" style="width: 100.0%; height: 100.0%;">Pasteleria La Moderna - 3.9⭐ (295 reviews)</div>`)[0];
+                popup_a026977dfc5a1970f61a71bca0eb0dcb.setContent(html_39626b1b6078f07fe092c06ad23efc9d);
+            
+        
+
+        marker_cd5ce0edd7d6711a1c686ee60ef04993.bindPopup(popup_a026977dfc5a1970f61a71bca0eb0dcb)
+        ;
+
+        
+    
+    
+                marker_cd5ce0edd7d6711a1c686ee60ef04993.setIcon(icon_e3037809074bd3509ee201f6181e8bfe);
+            
+    
+            var marker_05303b69d872499baacc4128e4dd1176 = L.marker(
+                [39.457674399999995, -0.3459646],
+                {
+}
+            ).addTo(map_032a6825534b4e5c730df069e101f2b5);
+        
+    
+            var icon_663564274bfbde0a50237a648652a027 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "lightgray",
+  "iconColor": "white",
+  "icon": "coffee",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0c0870b16ea755d978619490b3fdf132 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_afdbb09bb5fad8b41f9e63800f088073 = $(`<div id="html_afdbb09bb5fad8b41f9e63800f088073" style="width: 100.0%; height: 100.0%;">Dolce Salato - 3.4⭐ (607 reviews)</div>`)[0];
+                popup_0c0870b16ea755d978619490b3fdf132.setContent(html_afdbb09bb5fad8b41f9e63800f088073);
+            
+        
+
+        marker_05303b69d872499baacc4128e4dd1176.bindPopup(popup_0c0870b16ea755d978619490b3fdf132)
+        ;
+
+        
+    
+    
+                marker_05303b69d872499baacc4128e4dd1176.setIcon(icon_663564274bfbde0a50237a648652a027);
+            
+    
+            var marker_9d4e4d3504cf01db7134fd525d80087a = L.marker(
+                [39.461366999999996, -0.34896299999999997],
+                {
+}
+            ).addTo(map_032a6825534b4e5c730df069e101f2b5);
+        
+    
+            var icon_1fb6ea70a73ac17d2fe6315e070b2294 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "lightgray",
+  "iconColor": "white",
+  "icon": "coffee",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_af75a3746c705307c6a70d67506cb06b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7a5fb8fb4683ba237aad571b29ac92f2 = $(`<div id="html_7a5fb8fb4683ba237aad571b29ac92f2" style="width: 100.0%; height: 100.0%;">Vega Cafetería - 4.5⭐ (314 reviews)</div>`)[0];
+                popup_af75a3746c705307c6a70d67506cb06b.setContent(html_7a5fb8fb4683ba237aad571b29ac92f2);
+            
+        
+
+        marker_9d4e4d3504cf01db7134fd525d80087a.bindPopup(popup_af75a3746c705307c6a70d67506cb06b)
+        ;
+
+        
+    
+    
+                marker_9d4e4d3504cf01db7134fd525d80087a.setIcon(icon_1fb6ea70a73ac17d2fe6315e070b2294);
+            
+    
+            var marker_ee70966bcbee708551547b484141124c = L.marker(
+                [39.4612315, -0.34112699999999996],
+                {
+}
+            ).addTo(map_032a6825534b4e5c730df069e101f2b5);
+        
+    
+            var icon_de0be633e70bdc2cb3322c75689404bc = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "lightgray",
+  "iconColor": "white",
+  "icon": "coffee",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_60ce3225491fe00f93107a33b52b24c3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_276f36b20227597ae2afc6cbfd0c9fcb = $(`<div id="html_276f36b20227597ae2afc6cbfd0c9fcb" style="width: 100.0%; height: 100.0%;">Horchatería Blanc i Verd - 4.3⭐ (307 reviews)</div>`)[0];
+                popup_60ce3225491fe00f93107a33b52b24c3.setContent(html_276f36b20227597ae2afc6cbfd0c9fcb);
+            
+        
+
+        marker_ee70966bcbee708551547b484141124c.bindPopup(popup_60ce3225491fe00f93107a33b52b24c3)
+        ;
+
+        
+    
+    
+                marker_ee70966bcbee708551547b484141124c.setIcon(icon_de0be633e70bdc2cb3322c75689404bc);
+            
+    
+            var marker_6a1c337bb71d885a7788c331be460730 = L.marker(
+                [39.459369800000005, -0.3491373],
+                {
+}
+            ).addTo(map_032a6825534b4e5c730df069e101f2b5);
+        
+    
+            var icon_863d7ff8821a4bd87e1b0d635b934054 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "lightgray",
+  "iconColor": "white",
+  "icon": "coffee",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ce9ae66a74fb94bcc3a4ea29b913e6e6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7e078cd71d2d29eaf2d4e16cec4b1c3b = $(`<div id="html_7e078cd71d2d29eaf2d4e16cec4b1c3b" style="width: 100.0%; height: 100.0%;">La Tahona del Abuelo - 4.5⭐ (105 reviews)</div>`)[0];
+                popup_ce9ae66a74fb94bcc3a4ea29b913e6e6.setContent(html_7e078cd71d2d29eaf2d4e16cec4b1c3b);
+            
+        
+
+        marker_6a1c337bb71d885a7788c331be460730.bindPopup(popup_ce9ae66a74fb94bcc3a4ea29b913e6e6)
+        ;
+
+        
+    
+    
+                marker_6a1c337bb71d885a7788c331be460730.setIcon(icon_863d7ff8821a4bd87e1b0d635b934054);
+            
+    
+            var marker_890e546641905076ede2585c847e05da = L.marker(
+                [39.4566515, -0.345862],
+                {
+}
+            ).addTo(map_032a6825534b4e5c730df069e101f2b5);
+        
+    
+            var icon_57c832b58188df8a0c968cf11f09797b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "lightgray",
+  "iconColor": "white",
+  "icon": "coffee",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_18d3b995072c94cf23ec1446cc2d89c9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4243651cc5f10e1ab46e7732b68dab4c = $(`<div id="html_4243651cc5f10e1ab46e7732b68dab4c" style="width: 100.0%; height: 100.0%;">Rodilla - 3.8⭐ (917 reviews)</div>`)[0];
+                popup_18d3b995072c94cf23ec1446cc2d89c9.setContent(html_4243651cc5f10e1ab46e7732b68dab4c);
+            
+        
+
+        marker_890e546641905076ede2585c847e05da.bindPopup(popup_18d3b995072c94cf23ec1446cc2d89c9)
+        ;
+
+        
+    
+    
+                marker_890e546641905076ede2585c847e05da.setIcon(icon_57c832b58188df8a0c968cf11f09797b);
+            
+    
+            var marker_3c2ffe49ff2745492001af7ede3bdbf8 = L.marker(
+                [39.457259, -0.347202],
+                {
+}
+            ).addTo(map_032a6825534b4e5c730df069e101f2b5);
+        
+    
+            var icon_622846ef6d0cc13ea55cb26c54b64d5b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "lightgray",
+  "iconColor": "white",
+  "icon": "coffee",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2396c782a263f81110f94e0a2006f8a3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_804e607420997d848c821327cc39813d = $(`<div id="html_804e607420997d848c821327cc39813d" style="width: 100.0%; height: 100.0%;">Cafetería El Corte Inglés - 3.8⭐ (610 reviews)</div>`)[0];
+                popup_2396c782a263f81110f94e0a2006f8a3.setContent(html_804e607420997d848c821327cc39813d);
+            
+        
+
+        marker_3c2ffe49ff2745492001af7ede3bdbf8.bindPopup(popup_2396c782a263f81110f94e0a2006f8a3)
+        ;
+
+        
+    
+    
+                marker_3c2ffe49ff2745492001af7ede3bdbf8.setIcon(icon_622846ef6d0cc13ea55cb26c54b64d5b);
+            
+    
+            var marker_41c27b87a153b8e9964a3d19eb55927e = L.marker(
+                [39.4633561, -0.3456931],
+                {
+}
+            ).addTo(map_032a6825534b4e5c730df069e101f2b5);
+        
+    
+            var icon_eb28d2d415e61a6d7e01ff863cc93bd8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "lightgray",
+  "iconColor": "white",
+  "icon": "coffee",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_6e76dfc8ab95b9f4d6d415520bf0ee9e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2c755a01d21450d31e41492f586609d5 = $(`<div id="html_2c755a01d21450d31e41492f586609d5" style="width: 100.0%; height: 100.0%;">Café Illes - 4.6⭐ (157 reviews)</div>`)[0];
+                popup_6e76dfc8ab95b9f4d6d415520bf0ee9e.setContent(html_2c755a01d21450d31e41492f586609d5);
+            
+        
+
+        marker_41c27b87a153b8e9964a3d19eb55927e.bindPopup(popup_6e76dfc8ab95b9f4d6d415520bf0ee9e)
+        ;
+
+        
+    
+    
+                marker_41c27b87a153b8e9964a3d19eb55927e.setIcon(icon_eb28d2d415e61a6d7e01ff863cc93bd8);
+            
+    
+            var marker_a13ec0076c6be0dcd74db42f8d546fb7 = L.marker(
+                [39.4648706, -0.3461122],
+                {
+}
+            ).addTo(map_032a6825534b4e5c730df069e101f2b5);
+        
+    
+            var icon_132d43187cce16069188cd3606e16ad7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "lightgray",
+  "iconColor": "white",
+  "icon": "coffee",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_17026dd8710d5ce83e964694423c690c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5120b0ac5b3c7ed9a1b00b1682aef717 = $(`<div id="html_5120b0ac5b3c7ed9a1b00b1682aef717" style="width: 100.0%; height: 100.0%;">Meraki Lounge - 4.2⭐ (130 reviews)</div>`)[0];
+                popup_17026dd8710d5ce83e964694423c690c.setContent(html_5120b0ac5b3c7ed9a1b00b1682aef717);
+            
+        
+
+        marker_a13ec0076c6be0dcd74db42f8d546fb7.bindPopup(popup_17026dd8710d5ce83e964694423c690c)
+        ;
+
+        
+    
+    
+                marker_a13ec0076c6be0dcd74db42f8d546fb7.setIcon(icon_132d43187cce16069188cd3606e16ad7);
+            
+    
+            var marker_31da8557ff6d1bafc60ccd3c7d6dab1a = L.marker(
+                [39.460609999999996, -0.34548999999999996],
+                {
+}
+            ).addTo(map_032a6825534b4e5c730df069e101f2b5);
+        
+    
+            var icon_a808f0d314a7bf3279818f03a08548c1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "lightgray",
+  "iconColor": "white",
+  "icon": "coffee",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b39e9dcd8adb676d2b5780765c54be85 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8e8ab3def26f490fde070eaadeac1afe = $(`<div id="html_8e8ab3def26f490fde070eaadeac1afe" style="width: 100.0%; height: 100.0%;">Planeta Café - 5⭐ (72 reviews)</div>`)[0];
+                popup_b39e9dcd8adb676d2b5780765c54be85.setContent(html_8e8ab3def26f490fde070eaadeac1afe);
+            
+        
+
+        marker_31da8557ff6d1bafc60ccd3c7d6dab1a.bindPopup(popup_b39e9dcd8adb676d2b5780765c54be85)
+        ;
+
+        
+    
+    
+                marker_31da8557ff6d1bafc60ccd3c7d6dab1a.setIcon(icon_a808f0d314a7bf3279818f03a08548c1);
+            
+    
+            var marker_c7ca88439204af76916dea702d8488a2 = L.marker(
+                [39.4568788, -0.3454752],
+                {
+}
+            ).addTo(map_032a6825534b4e5c730df069e101f2b5);
+        
+    
+            var icon_4a559a0399ca7e29fafddf757c225ad5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "lightgray",
+  "iconColor": "white",
+  "icon": "coffee",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f2b32bcd3cd9f72700ba52c77264ddf5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c1e49a0cf7e3e00f2c18227fada81cc5 = $(`<div id="html_c1e49a0cf7e3e00f2c18227fada81cc5" style="width: 100.0%; height: 100.0%;">Panaria - 2.8⭐ (186 reviews)</div>`)[0];
+                popup_f2b32bcd3cd9f72700ba52c77264ddf5.setContent(html_c1e49a0cf7e3e00f2c18227fada81cc5);
+            
+        
+
+        marker_c7ca88439204af76916dea702d8488a2.bindPopup(popup_f2b32bcd3cd9f72700ba52c77264ddf5)
+        ;
+
+        
+    
+    
+                marker_c7ca88439204af76916dea702d8488a2.setIcon(icon_4a559a0399ca7e29fafddf757c225ad5);
+            
+    
+            var marker_48a649b81a4f87341ca26e11c8f32374 = L.marker(
+                [39.45655300000001, -0.34618],
+                {
+}
+            ).addTo(map_032a6825534b4e5c730df069e101f2b5);
+        
+    
+            var icon_635800d60d7b0a649bccedc7d8e7a14e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "lightgray",
+  "iconColor": "white",
+  "icon": "coffee",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a9a8da594cda405eeacc9a5ae2839bf4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8b1b8bd12aa76c8617e16640ce7c1cfa = $(`<div id="html_8b1b8bd12aa76c8617e16640ce7c1cfa" style="width: 100.0%; height: 100.0%;">Jamaica - 2.7⭐ (579 reviews)</div>`)[0];
+                popup_a9a8da594cda405eeacc9a5ae2839bf4.setContent(html_8b1b8bd12aa76c8617e16640ce7c1cfa);
+            
+        
+
+        marker_48a649b81a4f87341ca26e11c8f32374.bindPopup(popup_a9a8da594cda405eeacc9a5ae2839bf4)
+        ;
+
+        
+    
+    
+                marker_48a649b81a4f87341ca26e11c8f32374.setIcon(icon_635800d60d7b0a649bccedc7d8e7a14e);
+            
+    
+            var marker_4adf63768ed3b97c15dbbd07f768e203 = L.marker(
+                [39.457120599999996, -0.34709629999999997],
+                {
+}
+            ).addTo(map_032a6825534b4e5c730df069e101f2b5);
+        
+    
+            var icon_16120012ea61c3eac70a4c4739bbbdbe = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "lightgray",
+  "iconColor": "white",
+  "icon": "coffee",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_5a2868cad431cda3572038af8eaead76 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_56b79164f57452aa4cae36fbc8945420 = $(`<div id="html_56b79164f57452aa4cae36fbc8945420" style="width: 100.0%; height: 100.0%;">Cafetería Corte Corte Inglés Avenida de Francia - 3⭐ (80 reviews)</div>`)[0];
+                popup_5a2868cad431cda3572038af8eaead76.setContent(html_56b79164f57452aa4cae36fbc8945420);
+            
+        
+
+        marker_4adf63768ed3b97c15dbbd07f768e203.bindPopup(popup_5a2868cad431cda3572038af8eaead76)
+        ;
+
+        
+    
+    
+                marker_4adf63768ed3b97c15dbbd07f768e203.setIcon(icon_16120012ea61c3eac70a4c4739bbbdbe);
+            
+    
+            var heat_map_5d5907ce2f0995f00a94ca120160b6ca = L.heatLayer(
+                [[39.461363899999995, -0.3721615, 7057.6], [39.461937299999995, -0.3697783, 1432.2], [39.4605422, -0.3725178, 7501.200000000001], [39.4660535, -0.36843929999999997, 9461.4], [39.464810899999996, -0.3672464, 1876.8], [39.4640145, -0.366011, 2569.5], [39.4624108, -0.37215539999999997, 457.6], [39.462622499999995, -0.36860129999999997, 6887.999999999999], [39.4607168, -0.3707397, 1175.0], [39.4641653, -0.3710482, 7866.6], [39.46155650000001, -0.3622397, 1628.3999999999999], [39.464957399999996, -0.36751649999999997, 690.9], [39.4593244, -0.369011, 1540], [39.462607999999996, -0.3691703, 1865.6000000000001], [39.4633537, -0.369484, 815], [39.4607744, -0.3719357, 4221.0], [39.4612157, -0.3715054, 2196.0], [39.461621099999995, -0.3670264, 1494.9999999999998], [39.465536, -0.3665304, 607.1999999999999], [39.4636648, -0.3719732, 124.19999999999999], [39.460062199999996, -0.3491639, 3491.3999999999996], [39.4590324, -0.3478737, 4843.2], [39.459100299999996, -0.3449228, 1368.0], [39.456813, -0.34585130000000003, 864], [39.4593606, -0.34611929999999996, 1393.2], [39.4628534, -0.34286639999999996, 2418.0], [39.459507099999996, -0.34974649999999996, 3988.6000000000004], [39.458740299999995, -0.3459423, 1150.5], [39.457674399999995, -0.3459646, 2063.7999999999997], [39.461366999999996, -0.34896299999999997, 1413.0], [39.4612315, -0.34112699999999996, 1320.1], [39.459369800000005, -0.3491373, 472.5], [39.4566515, -0.345862, 3484.6], [39.457259, -0.347202, 2318.0], [39.4633561, -0.3456931, 722.1999999999999], [39.4648706, -0.3461122, 546.0], [39.460609999999996, -0.34548999999999996, 360], [39.4568788, -0.3454752, 520.8], [39.45655300000001, -0.34618, 1563.3000000000002], [39.457120599999996, -0.34709629999999997, 240]],
+                {
+  "minOpacity": 0.5,
+  "maxZoom": 17,
+  "radius": 25,
+  "blur": 15,
+}
+            );
+        
+    
+            heat_map_5d5907ce2f0995f00a94ca120160b6ca.addTo(map_032a6825534b4e5c730df069e101f2b5);
+        
+</script>
+</html>
